@@ -1,0 +1,61 @@
+
+.register {
+    align-content: center;
+    flex-direction: column;
+}
+
+.RegisterContent {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.RegisterContentBox {
+    display: block;
+    flex-direction: column;
+
+    width: 300px;
+    height: 400px;
+    margin: 8px;
+    padding: 8px;
+    border: 5px solid #ccc;
+    text-align: center;
+    overflow: hidden;
+    transition: max-height 0.3s, border 0.3s, box-shadow 0.3s; /* Dodaj animacje przejścia */
+}
+.RegisterContentBox:hover {
+    max-height: 1000px;
+    border: 5px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #f8f8f8;
+}
+
+.register button {
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    margin: 2px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+    height: 50px;
+    width: 120px;
+}
+.register input{
+    margin: 10px;
+}
+.register .buttonSubmit {
+    margin-top: 20px;
+    background-color: white;
+}
+.register .buttonSubmit:hover {
+    background-color: grey;
+}
+.register input {
+    width: 200px;
+    height: 25px;
+}

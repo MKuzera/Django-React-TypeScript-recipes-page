@@ -1,0 +1,43 @@
+/* fileUpload.css */
+.addRecipeForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.inputLabel {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inputLabel input,
+.inputLabel textarea,
+.inputLabel select {
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.buttonContainer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+/* Dodatkowe style dla tagów */
+.tag {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.tag.selected {
+    background-color: #007bff;
+    color: #fff;
+}

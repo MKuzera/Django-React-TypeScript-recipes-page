@@ -1,0 +1,67 @@
+
+.addRecipeSite {
+    align-content: center;
+    flex-direction: column;
+}
+
+.AddRecipeSiteContent{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.AddRecipeSiteContentBox {
+    display: block;
+    flex-direction: column;
+
+    width: 300px;
+
+    margin: 8px;
+    padding: 8px;
+    border: 5px solid #ccc;
+    text-align: center;
+
+    transition: max-height 0.3s, border 0.3s, box-shadow 0.3s; /* Dodaj animacje przejścia */
+}
+.AddRecipeSiteContentBox:hover {
+    max-height: 1500px;
+    border: 5px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #f8f8f8;
+}
+
+.addRecipeSite button {
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    margin: 2px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+    height: 50px;
+    width: 120px;
+}
+
+.addRecipeSite .buttonSubmit {
+    margin-top: 20px;
+    background-color: white;
+}
+.addRecipeSite .buttonSubmit:hover {
+    background-color: grey;
+}
+.addRecipeSite input {
+    width: 200px;
+    height: 25px;
+}
+.Recipe {
+    text-align: left;
+}
+.Recipe .RecipeTitle {
+     text-align: center;
+    font-size: 20px;
+    color: green;
+ }

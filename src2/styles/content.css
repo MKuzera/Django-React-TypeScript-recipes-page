@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.content {
+    font-family: 'Quicksand', sans-serif;
+    flex-basis: 80%;
+    display: flex;
+}
+
+.Recipes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Recipe {
+    width: 400px;
+    max-height: 600px;
+    min-height: 600px;
+    margin: 8px;
+    padding: 8px;
+    border: 5px solid #ccc;
+    text-align: center;
+    overflow: hidden;
+    transition: max-height 0.3s, border 0.3s, box-shadow 0.3s; /* Dodaj animacje przejścia */
+}
+
+.Recipe:hover {
+    max-height: 1000px;
+    border: 5px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Dodaj subtelny cień na hoverze */
+    background-color: #f8f8f8; /* Dodaj tło na hoverze */
+}
+
+.Recipe img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+}
+
+.RecipeTitle {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.RecipeDescription {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}

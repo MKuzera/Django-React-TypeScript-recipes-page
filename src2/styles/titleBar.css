@@ -1,0 +1,47 @@
+
+.titleBar{
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(127deg, rgba(153, 255, 88, 0.46) 0%, rgba(153, 255, 88, 0.46) 14.286%,rgba(134, 245, 84, 0.46) 14.286%, rgba(134, 245, 84, 0.46) 28.572%,rgba(114, 236, 80, 0.46) 28.572%, rgba(114, 236, 80, 0.46) 42.858%,rgba(95, 226, 76, 0.46) 42.858%, rgba(95, 226, 76, 0.46) 57.144%,rgba(76, 216, 72, 0.46) 57.144%, rgba(76, 216, 72, 0.46) 71.43%,rgba(56, 207, 68, 0.46) 71.43%, rgba(56, 207, 68, 0.46) 85.716%,rgba(37, 197, 64, 0.46) 85.716%, rgba(37, 197, 64, 0.46) 100.002%),linear-gradient(285deg, rgb(116, 183, 117) 0%, rgb(116, 183, 117) 14.286%,rgb(113, 173, 114) 14.286%, rgb(113, 173, 114) 28.572%,rgb(110, 163, 110) 28.572%, rgb(110, 163, 110) 42.858%,rgb(107, 154, 107) 42.858%, rgb(107, 154, 107) 57.144%,rgb(104, 144, 103) 57.144%, rgb(104, 144, 103) 71.43%,rgb(101, 134, 100) 71.43%, rgb(101, 134, 100) 85.716%,rgb(98, 124, 96) 85.716%, rgb(98, 124, 96) 100.002%);
+}
+
+
+.titleBar button {
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    margin: 2px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+    height: 50px;
+    width: 120px;
+}
+
+.titleBar .button1 {
+    background-color: white;
+}
+
+.titleBar .button2 {
+    background-color: white;
+}
+
+.titleBar button:hover {
+    background-color: grey;
+}
+.centeredElement {
+    align-items: center;
+}
+
+.rightElements {
+    display: flex;
+    align-items: center;
+}
